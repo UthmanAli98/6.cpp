@@ -59,7 +59,7 @@ int main()
 {
     int num;
     ifstream inFile; 
-	inFile.open("input.txt");
+	inFile.open("graph.txt");
 	if(!inFile){
 		
 		cout<<"Unable to open the text file " <<endl;
